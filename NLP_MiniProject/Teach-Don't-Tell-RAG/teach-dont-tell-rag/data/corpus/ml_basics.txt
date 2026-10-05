@@ -1,0 +1,11 @@
+Machine Learning Basics
+
+Supervised learning is a type of machine learning where the model learns from labeled training data. The algorithm learns a mapping function from input features to output labels. Common supervised learning algorithms include linear regression, decision trees, and neural networks.
+
+Unsupervised learning differs from supervised learning in that it works with unlabeled data. The goal is to discover hidden patterns or groupings in the data. Clustering algorithms like K-means and hierarchical clustering are popular unsupervised methods. Dimensionality reduction techniques such as PCA also fall under unsupervised learning.
+
+Overfitting occurs when a model learns the training data too well, including its noise and outliers, resulting in poor generalization to new data. Regularization techniques like L1 and L2 regularization help prevent overfitting by adding a penalty term to the loss function. Cross-validation is another technique used to detect and prevent overfitting by evaluating the model on different subsets of the data.
+
+A neural network is composed of layers of interconnected nodes called neurons. The input layer receives data, hidden layers process it through weighted connections and activation functions, and the output layer produces the final prediction. Backpropagation is the algorithm used to train neural networks by computing gradients and updating weights to minimize the loss function.
+
+Gradient descent is an optimization algorithm used to minimize the loss function during training. It works by iteratively adjusting model parameters in the direction that reduces the error. Variants include stochastic gradient descent which uses random subsets of data, and Adam optimizer which adapts the learning rate for each parameter.
